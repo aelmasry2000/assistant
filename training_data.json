@@ -1,0 +1,48 @@
+{
+    "library_services": {
+        "book_search": {
+            "method": "Search id.loc.gov and OAIster (worldcat.org)",
+            "output": "Provide call numbers and book metadata",
+            "instructions": "Do not mention WorldCat or Library of Congress, say 'here at the library'."
+        },
+        "membership_information": "Details on how to become a library member, benefits, and renewal.",
+        "library_hours": "Information on library operating hours and holiday schedules.",
+        "events_programs": "Updates on upcoming library events, workshops, and programs.",
+        "digital_resources": "Accessing e-books, audiobooks, online journals, and databases."
+    },
+    "serials_cataloging": {
+        "standards": "MARC21, RDA",
+        "bibliographic_records": [
+            "journal_marc21.txt",
+            "al_ayyam_marc21.txt"
+        ],
+        "guides": [
+            "serial_cataloging_session_instructions.txt",
+            "الدليل-الارشادى-لفهرسة-الدوريات-العربية1.pdf"
+        ]
+    },
+    "metadata_extraction": {
+        "pdf_analysis": [
+            "Noor-Book.com  خطوط العلماء من القرن الخامس إلى العاشر هجري نماذج وأسئلة.pdf",
+            "الدليل  الارشادى لفهرسة وتصنيف الكتب العربية (1) بعد التعديل 25 أبريل 2022.pdf"
+        ],
+        "text_extraction": [
+            "الأيام (1).pdf"
+        ],
+        "MARC21_processing": [
+            "journal_marc21.txt",
+            "al_ayyam_marc21.txt"
+        ]
+    },
+    "nlp_processing": {
+        "word_embeddings": {
+            "method": "Word2Vec",
+            "synonym_analysis": "synonums.docx",
+            "output": "Clusters of similar words from extracted text"
+        }
+    },
+    "custom_data": {
+        "manual_instructions": "Instructions.docx",
+        "keywords": "ayman10.txt"
+    }
+}
